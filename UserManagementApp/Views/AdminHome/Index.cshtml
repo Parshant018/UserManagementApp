@@ -1,0 +1,75 @@
+﻿@{
+    Layout = null;
+}
+
+@model List<UserManager.Models.EmployeeModel>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <a href="@Url.Action("Create","AdminHome")">+Create</a>
+    <form onsubmit="@Url.Action("Index","AdminHome")">
+        <label>Search:</label>
+        <input type="text" name="SearchText"/>
+        <label>OrderBy:</label>
+        <input type="text" name="SortOrder" />
+        <label>Order:</label>
+        <input type="number" name="SortDirection" />
+        <label>PageSize:</label>
+        <input type="text" name="PageSize" />
+        <label>PageIndex:</label>
+        <input type="text" name="PageIndex" />
+        <label>Name:</label>
+        <input type="text" name="Name" />
+        <label>Email:</label>
+        <input type="email" name="Email" />
+        <label>DateOfBirth:</label>
+        <input type="date" name="Dob" />
+        <label>Designation:</label>
+        <input type="text" name="Designation" />
+        <label>Age:</label>
+        <input type="number" name="Age" />
+        <label>Salary:</label>
+        <input type="number" name="Salary" />
+        <label>PhoneNumber:</label>
+        <input type="number" name="phone" />
+        <input type="submit" value="search">
+    </form>
+    <table class="grid">
+    <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Password</th>
+    <th>DateOfBirth</th>
+    <th>Designation</th>
+    <th>PhoneNumber</th>
+    <th>Age</th>
+    <th>Salary</th>
+    <th>Bio</th>
+    </tr>
+    @foreach (var employee in Model) {
+     <tr>
+    <td>@employee.Id</td>
+    <td>@employee.Name</td>
+    <td>@employee.Email</td>
+    <td>@employee.Password</td>
+    <td>@employee.DateOfBirth</td>
+    <td>@employee.Designation</td>
+    <td>@employee.PhoneNumber</td>
+    <td>@employee.Age</td>
+    <td>@employee.Salary</td>
+    <td>@employee.Bio</td>
+    <td style="padding:7px; color:Blue; text-decoration:underline;">
+    @Html.ActionLink("Delete", "Delete", new { @id = employee.Id})
+    @Html.ActionLink("Edit", "Update",employee)
+    </td>
+    </tr>
+    }
+    </table>
+</body>
+</html>

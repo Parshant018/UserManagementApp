@@ -1,0 +1,172 @@
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:15:15,474          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:16:27,434          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:17:22,662          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:22,677          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:22,678          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:26,832          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:27,247          (null)         / In try of SetResult       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:17:45,011          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:45,012          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:45,012          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:48,905          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:48,906          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:51,636          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:51,636          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:17:51,636          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:17:51,636          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:17:51,675          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:51,711          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:17:51,780          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:17:51,814          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:17:51,831          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:17:51,850          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:18:37,167          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:18:37,597          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:18:37,598          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:18:43,772          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:18:43,772          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:18:45,369          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:18:45,369          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:18:45,406          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:18:45,444          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:18:45,481          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:19:11,581          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:19:13,553          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:19:14,870          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:19:18,142          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:22:46,025          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:24:04,697          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:24:04,697          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:24:04,733          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:24:04,772          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:24:04,811          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:24:14,904          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:24:14,905          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:24:14,905          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:24:18,261          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:24:18,261          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:24:59,098          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:24:59,098          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:24:59,133          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:24:59,171          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:24:59,209          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:25:03,107          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:25:03,107          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:25:03,108          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:25:05,572          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:25:05,573          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:28:47,662          (null)         / In catch if SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:28:47,701          (null)         / In catch of constructor of ApiRequestManager       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:28:47,740          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:28:51,704          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:28:51,705          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:28:51,705          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:28:53,874          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:28:53,874          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:30:43,324          (null)         / In catch if SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:30:43,381          (null)         / In catch of constructor of ApiRequestManager       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:30:43,442          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:30:47,626          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:30:47,627          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:30:47,627          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:30:49,873          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:30:49,873          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:31:04,573          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:31:04,574          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:31:04,608          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:31:04,643          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:31:04,684          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:31:08,239          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:31:08,240          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:31:08,240          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:31:10,395          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:31:10,396          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:12,887          (null)         / In catch if SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:12,943          (null)         / In catch of constructor of ApiRequestManager       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:36:14,583          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:36:18,202          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:18,202          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:18,203          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:20,216          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:20,216          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:36,533          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:36:36,533          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:36:36,572          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:36,611          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:36:36,650          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:36:40,343          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:40,344          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:40,345          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:43,294          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:36:43,294          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:22,155          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:37:22,156          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:37:22,193          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:22,232          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:37:22,272          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:37:27,521          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:27,522          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:27,522          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:30,545          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:30,546          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:53,622          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:37:53,622          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:37:53,659          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:53,697          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:37:53,736          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:37:57,224          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:57,224          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:57,225          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:59,167          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:37:59,168          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:38:50,474          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:38:50,475          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:38:50,513          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:38:50,552          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:38:50,591          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:38:53,816          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:38:53,817          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:38:53,818          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:38:56,144          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:38:56,144          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:46:33,512          (null)         / In catch if SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:46:33,945          (null)         / In catch of constructor of ApiRequestManager       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:46:34,016          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:47:17,178          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:47:17,178          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:47:17,178          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:47:19,634          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:47:19,634          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:47:57,472          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:47:57,473          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:47:57,510          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:47:57,550          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:47:57,589          (null)         / In catch of Login       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-30 13:50:20,858          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:20,859          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:20,860          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:23,423          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:23,424          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:24,753          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:24,829          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:43,557          (null)         / In try of GetToken       
+INFO           /UserManagementApp.Controllers.HomeController          / 2023-04-30 13:50:43,704          (null)         / In try of SearchData       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:43,705          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:43,705          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:43,712          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:49,273          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of GetResponseData       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:50:49,274          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:50:49,310          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:49,350          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In catch of GetResponseData       
+INFO           /UserManagementApp.Controllers.HomeController          / 2023-04-30 13:50:49,392          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In catch of SearchData       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:59,596          (null)         / In try of GetToken       
+INFO           /UserManagementApp.Controllers.HomeController          / 2023-04-30 13:50:59,647          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of SearchData       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:59,647          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:59,648          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:59,648          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:50:59,699          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:51:13,043          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of GetResponseData       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:51:13,043          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-30 13:51:13,080          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-30 13:51:13,119          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In catch of GetResponseData       
+INFO           /UserManagementApp.Controllers.HomeController          / 2023-04-30 13:51:13,158          wn8YgvzCMTYEwPXFTooiFJn55OS78PUDI8LbWgwWw0EcTSSCYGBc7x5SBGsU3KDYMjtaJBvcu2KjNNQLKW/nLnTdx5JvrmOcAYBsXxZ8W88ywGWkpIdLKj7iJRvToCw/OpZy7bjDAkg=         / In catch of SearchData       

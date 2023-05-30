@@ -4,26 +4,37 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Runtime.InteropServices;
-using UserServices.Models;
+using UserManagementApi.DataObjects;
 using log4net;
-using UserServices.ExceptionModule;
+using UserManagementApi.ExceptionModule;
+using System.Reflection;
+using UserManagementApi.DataObject;
+using System.Collections;
 
-namespace UserServices
+namespace UserManagementApi.DLModule
 {
-    public class ConnectionManager<T>
+    public class ConnectionManager
     {
-        private static readonly ILog Log = LogManager.GetLogger();
-        ParameterManager ParameterManager = new ParameterManager();
+        private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         MySqlConnection Connection = new MySqlConnection(ConfigurationManager.AppSettings["ConnectionString"]);
         MySqlCommand Command;
-        public ConnectionManager(string spName,[Optional]T parameters,string id = null,string token=null)
+
+        public ConnectionManager(string spName,[Optional]Hashtable parameterList)
         {
             try
             {
                 Log.Info("In try of ConnectionManager Constructor");
                 Command = new MySqlCommand(spName, Connection);
                 Command.CommandType = CommandType.StoredProcedure;
-                ParameterManager.AddParameters(Command, parameters, id,token);
+
+                if (parameterList != null)
+                {
+                    foreach (string key in parameterList.Keys)
+                    {
+                            Command.Parameters.AddWithValue(key, parameterList[key]);
+                    }
+                }
+
                 Connection.Open();
             }
             catch (Exception)
@@ -38,9 +49,11 @@ namespace UserServices
             try
             {
                 Log.Info("In try of ExecuteNonReadquery");
+
                 int AffectedRowCount = Command.ExecuteNonQuery();
+
                 if (AffectedRowCount == 0)
-                    throw new InvalidInformationException("No user Found with this Id");
+                    throw new UserInvalidDataException("No user Found with this Id");
             }
             catch (Exception)
             {
@@ -54,9 +67,9 @@ namespace UserServices
             }
         }
 
-        public List<UserInfo> GetUserList()
+        public List<UserData> GetUserList()
         {
-            List<UserInfo> UserList = new List<UserInfo>();
+            List<UserData> UserList = new List<UserData>();
             try
             {
                 Log.Info("In try of GetUserList");
@@ -64,17 +77,18 @@ namespace UserServices
                 {
                     while (Reader.Read())
                     {
-                        UserInfo User = new UserInfo();
-                        User.Id = Convert.ToInt32(Reader["Id"]);
+                        UserData User = new UserData();
+                        User.Id = Convert.ToString(Reader["Id"]);
                         User.Name = Convert.ToString(Reader["Name"]);
                         User.Email = Convert.ToString(Reader["Email"]);
                         User.Password = Convert.ToString(Reader["Password"]);
                         User.DateOfBirth = Convert.ToDateTime(Reader["DateOfBirth"]).ToString("yyyy-MM-dd");
-                        User.Designation = Convert.ToString(Reader["Designation"]);
-                        User.Age = Convert.ToInt32(Reader["Age"]);
+                        User.Designation = Convert.ToString(Reader["Designation"]).ToUpper() == "ADMIN" ? DesignationList.Admin:DesignationList.User;
                         User.Salary = Convert.ToInt32(Reader["Salary"]);
                         User.PhoneNumber = Convert.ToString(Reader["PhoneNumber"]);
                         User.Bio = Convert.ToString(Reader["Bio"]);
+                        User.CreatedOn = Convert.ToDateTime(Reader["CreatedOn"]).ToString("yyyy-MM-dd HH:mm:ss");
+                        User.ModifiedOn = Convert.ToDateTime(Reader["ModifiedOn"]).ToString("yyyy-MM-dd HH:mm:ss");
                         UserList.Add(User);
                     }
                 }
@@ -93,32 +107,32 @@ namespace UserServices
         }
 
 
-        public TokenInfo GetTokenInfo()
+        public TokenData GetTokenData()
         {
-            TokenInfo TokenInfo = new TokenInfo();
+            TokenData TokenData = new TokenData();
             try
             {
-                Log.Info("In try of GetTokenInfo");
+                Log.Info("In try of GetTokenData");
                 using (MySqlDataReader Reader = Command.ExecuteReader())
                 {
                     while (Reader.Read())
                     {
-                        TokenInfo.Token = Convert.ToString(Reader["Token"]);
-                        TokenInfo.TokenExpireTime = Convert.ToDateTime(Reader["ExpireTime"]);
+                        TokenData.Token = Convert.ToString(Reader["Token"]);
+                        TokenData.TokenExpireTime = Convert.ToDateTime(Reader["ExpireTime"]);
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Log.Info("In catch of GetTokenInfo");
+                Log.Info("In catch of GetTokenData");
                 throw;
             }
             finally
             {
-                Log.Info("In finally of GetTokenInfo");
+                Log.Info("In finally of GetTokenData");
                 Connection.Close();
             }
-            return TokenInfo;
+            return TokenData;
         }
     }
 }

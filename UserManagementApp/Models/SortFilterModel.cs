@@ -1,9 +1,10 @@
-﻿namespace UserManager.Models
+﻿namespace UserManagementApp.Models
 {
+    public enum SortOption { Ascending,Descending};
     public class SortFilterModel
     {
         public string SortOrder { get; set; }
-        public int SortDirection { get; set; }
+        public SortOption SortDirection { get; set; }
         public string SearchText { get; set; }
         public int PageSize { get; set; }
         public int PageIndex { get; set; }

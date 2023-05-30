@@ -1,0 +1,289 @@
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:29,471          parshant@mailinator.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:29,700          parshant@mailinator.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:29,702          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:29,704          parshant@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:29,707          parshant@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:29:32,043          parshant@mailinator.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:32,043          parshant@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:29:32,044          parshant@mailinator.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:32,044          parshant@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:32,045          parshant@mailinator.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:32,046          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:32,047          parshant@mailinator.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:32,048          parshant@mailinator.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:32,049          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:32,050          parshant@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:32,051          parshant@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:29:32,051          parshant@mailinator.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:29:32,052          parshant@mailinator.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:32,052          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:32,053          parshant@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:32,054          parshant@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:29:35,957          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:35,957          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:35,958          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:35,959          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:35,960          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:35,961          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:35,962          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:35,962          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:35,963          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:29:36,005          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:36,006          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:36,007          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:36,009          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:36,012          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:36,015          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:36,016          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:36,018          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:36,020          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:29:39,556          parshant@mailinator.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:39,556          parshant@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:29:39,557          parshant@mailinator.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:39,558          parshant@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:29:39,558          parshant@mailinator.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:39,559          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:39,559          parshant@mailinator.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:39,560          parshant@mailinator.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:39,561          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:39,562          parshant@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:39,563          parshant@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:29:39,564          parshant@mailinator.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:29:39,564          parshant@mailinator.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:39,564          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:39,566          parshant@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:39,567          parshant@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:29:47,130          (null)         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:47,130          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:47,132          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:47,264          (null)         / In catch of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:47,288          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:29:47,311          (null)         / In Catch of LogOut endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:29:47,326          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:29:52,809          parshant@mailinator.com         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:52,810          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:52,812          parshant@mailinator.com         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:52,839          parshant@mailinator.com         / In catch of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:52,863          parshant@mailinator.com         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:29:52,892          parshant@mailinator.com         / In Catch of LogOut endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:29:52,893          parshant@mailinator.com         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:29:59,733          (null)         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:59,734          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:59,735          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:59,791          (null)         / In catch of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:29:59,814          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:29:59,838          (null)         / In Catch of LogOut endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:29:59,839          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:30:03,250          parshant@mailinator.com         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:03,250          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:03,251          parshant@mailinator.com         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:03,278          parshant@mailinator.com         / In catch of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:03,307          parshant@mailinator.com         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:30:03,334          parshant@mailinator.com         / In Catch of LogOut endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:30:03,334          parshant@mailinator.com         / In Global Exception       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:30:08,903          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:30:08,904          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:30:08,905          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:30:08,906          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:30:08,907          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:08,907          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:08,908          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:08,909          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:08,910          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:08,911          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:08,912          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:30:08,912          parshant@mailinator.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:30:08,912          parshant@mailinator.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:08,913          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:08,914          parshant@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:30:08,916          parshant@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:31:06,495          parshant@mailinator.com         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:06,497          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:06,498          parshant@mailinator.com         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:06,523          parshant@mailinator.com         / In catch of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:06,548          parshant@mailinator.com         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:31:06,572          parshant@mailinator.com         / In Catch of LogOut endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:31:06,572          parshant@mailinator.com         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:31:18,533          (null)         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:18,534          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:18,534          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:18,609          (null)         / In catch of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:18,632          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:31:18,658          (null)         / In Catch of LogOut endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:31:18,658          (null)         / In Global Exception       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:31:24,018          parshant@mailinator.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:31:24,018          parshant@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:31:24,019          parshant@mailinator.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:31:24,019          parshant@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:31:24,020          parshant@mailinator.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:24,020          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:24,021          parshant@mailinator.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:24,021          parshant@mailinator.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:24,022          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:24,022          parshant@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:24,023          parshant@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:31:24,024          parshant@mailinator.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:31:24,024          parshant@mailinator.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:24,024          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:24,025          parshant@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:31:24,038          parshant@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:33:05,502          parshant@mailinator.com         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:33:24,093          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:33:24,995          parshant@mailinator.com         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:33:25,030          parshant@mailinator.com         / In catch of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:33:25,053          parshant@mailinator.com         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:33:30,213          parshant@mailinator.com         / In Catch of LogOut endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:33:30,214          parshant@mailinator.com         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:33:34,722          (null)         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:33:35,573          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:33:35,574          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:33:35,599          (null)         / In catch of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:33:35,623          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:33:35,648          (null)         / In Catch of LogOut endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:33:35,648          (null)         / In Global Exception       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:34:04,093          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:34:04,095          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:34:04,096          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:34:04,096          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:34:04,097          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:04,097          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:04,098          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:04,100          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:04,101          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:04,103          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:04,107          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:34:04,108          parshant@mailinator.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:34:04,109          parshant@mailinator.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:04,109          parshant@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:04,112          parshant@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:04,115          parshant@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:34:07,856          (null)         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:08,985          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:08,987          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:09,116          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:34:36,553          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:34:36,554          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-05-03 12:34:36,554          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-05-03 12:34:36,554          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:36,555          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:36,555          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:34:36,654          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:34:36,676          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:34:36,697          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:34:36,697          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:35:08,264          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:35:08,266          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-05-03 12:35:08,266          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-05-03 12:35:08,267          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,267          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,268          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,269          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:08,270          (null)         / In try of GenerateToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:08,357          (null)         / In try of UpdateTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,357          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,367          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,369          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,369          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,370          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,596          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:35:08,738          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:08,739          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:08,740          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:08,741          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:08,742          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,743          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,744          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,746          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,747          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,823          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:08,824          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:35:09,074          Sales@mailinator.com         / In catch of AuthorizeUser       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:35:09,097          Sales@mailinator.com         / In Global Exception       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:11,313          Sales@mailinator.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:11,313          Sales@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:11,314          Sales@mailinator.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,314          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,315          Sales@mailinator.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,315          Sales@mailinator.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,316          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,317          Sales@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,318          Sales@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:11,364          Sales@mailinator.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:11,365          Sales@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:11,366          Sales@mailinator.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,366          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,368          Sales@mailinator.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,369          Sales@mailinator.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,371          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,373          Sales@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:11,374          Sales@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:17,968          Sales@mailinator.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:17,969          Sales@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:17,969          Sales@mailinator.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:17,969          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:17,970          Sales@mailinator.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:17,970          Sales@mailinator.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:17,970          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:17,971          Sales@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:17,972          Sales@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:18,033          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:18,034          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:18,035          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:18,036          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:18,038          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:18,040          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:18,041          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:18,043          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:18,045          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2023-05-03 12:35:20,399          (null)         / In try of Update endpoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:20,400          (null)         / In try of UpdateUser       
+INFO           /UserManagementApi.BLModule.ValidationModule.ValidationHelper          / 2023-05-03 12:35:20,400          (null)         / In try of ValidateUserData       
+INFO           /UserManagementApi.BLModule.ValidationModule.DateValidator          / 2023-05-03 12:35:20,400          (null)         / In try of CheckDateOfBirth       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-05-03 12:35:20,400          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-05-03 12:35:20,401          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.BLModule.ValidationModule.PhoneNumberValidator          / 2023-05-03 12:35:20,401          (null)         / In try of CheckPhoneNumber       
+INFO           /UserManagementApi.BLModule.ValidationModule.SalaryValidator          / 2023-05-03 12:35:20,401          (null)         / In try of CheckSalary       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:20,401          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:20,402          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:20,402          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:20,403          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,403          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,404          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,405          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,405          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,406          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,407          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,408          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,408          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,462          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:35:20,535          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:20,536          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:20,537          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:20,537          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:20,538          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,539          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,542          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,545          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,545          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,546          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:20,547          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-05-03 12:35:20,569          Sales@mailinator.com         / In catch of AuthorizeUser       
+INFO           /UserManagementApi.GlobalException          / 2023-05-03 12:35:20,590          Sales@mailinator.com         / In Global Exception       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:27,456          Sales@mailinator.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:27,457          Sales@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:27,458          Sales@mailinator.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,458          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,459          Sales@mailinator.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,459          Sales@mailinator.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,460          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,460          Sales@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,461          Sales@mailinator.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-05-03 12:35:27,493          Sales@mailinator.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:27,494          Sales@mailinator.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-05-03 12:35:27,494          Sales@mailinator.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,495          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,496          Sales@mailinator.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,498          Sales@mailinator.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,498          Sales@mailinator.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,499          Sales@mailinator.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-05-03 12:35:27,501          Sales@mailinator.com         / In finally of GetUserList       

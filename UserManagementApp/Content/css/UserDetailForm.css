@@ -1,0 +1,159 @@
+﻿#Header{
+    position:absolute;
+    height:100px;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:rgba(0,50,255,0.8);
+    text-align:center;
+}
+
+.Image-Align{
+width:95%;
+margin:130px auto 20px auto;
+}
+
+.UserDetailFormError{
+    margin-right:15px !important;
+}
+
+.Image-Align .ImageHolder{
+    background-image:url("../Images/UserInfo.png");
+    width:55%;
+    background-repeat:no-repeat;
+    background-size:90%;
+    background-position-x:center;
+    background-position-y:center;
+}
+
+#HeadText{
+    margin-top:34px;
+    color:white;
+    font-size:30px;
+    font-weight:500;
+    font-family:sans-serif;
+}
+
+.UserDetailForm{
+    box-shadow:3px 3px 3px 3px rgba(0,0,0,0.2);
+    width:100%;
+    margin:0 auto 0 auto;
+    border-radius:15px;
+    text-align:right;
+}
+
+.UserDetailForm .Error{
+    margin-left:19%;
+    color:red;
+    display:none;
+    font-size:14px;
+    text-align:left;
+    font-family:sans-serif;
+}
+
+.UserDetailForm table{
+    text-align:right;
+    margin: 0 auto 0 auto;
+    width:90%;
+}
+
+.UserDetailForm p{
+color:white;
+background-color:rgba(0,50,250,0.7);
+font-family:sans-serif;
+font-size:20px;
+text-align:center;
+border-radius:15px 15px 0 0;
+font-family:sans-serif;
+}
+
+.UserDetailForm label{
+ font-family:sans-serif;
+ color:rgba(0,0,0,0.7);
+ font-size:15px;
+}
+
+.UserDetailForm input,textarea,select{
+border:1px solid gainsboro;
+border-radius:5px;
+border-bottom:1px solid gainsboro;
+font-size:15px;
+width:80%;
+color:rgba(0,0,0,0.8);
+font-family:sans-serif;
+padding-left:3%;
+}
+
+.UserDetailForm td{
+    padding:10px;
+}
+
+.UserDetailForm input[type=date]{
+    width:81.5%;
+    padding-left:2%;
+}
+
+.UserDetailForm select{
+    width:84%;
+    padding-left:2%;
+}
+
+.UserDetailForm input:focus,textarea:focus,select:focus{
+outline-color:rgba(0,50,255,0.8);
+}
+
+#SubmitButton ,#FormBackButton{
+    text-decoration:none;
+    background:rgba(0,50,255,0.7);
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    cursor:pointer;
+    font-family:sans-serif;
+}
+
+.UserDetailForm #FormOptions{
+    padding:15px;
+    padding-right:35px;
+}
+
+.UserDetailForm textarea{
+    height:100px;
+}
+
+
+
+@media only screen and (max-width:700px){
+    .Image-Align .ImageHolder {
+        background:none;
+        width:0;
+    }
+
+    .UserDetailForm{
+        box-shadow:none;
+        width:100%;
+        border-radius:15px;
+        border:1px solid gainsboro;
+        border-top:none;
+        text-align:center;
+        margin: 0 auto 0 auto;
+        margin-top:120px;
+    }
+
+    #HeadText{
+        font-size:20px;
+    }
+    .UserDetailForm table{
+        text-align:left;
+        margin-left:10px;
+    }
+    .UserDetailForm input,select{
+        border:none;
+        border-bottom:1px solid gainsboro;
+    }
+
+    .UserDetailForm input:focus,select:focus{
+        outline:none;
+        border-bottom:1px solid rgba(0,50,255,0.8);
+    }
+}

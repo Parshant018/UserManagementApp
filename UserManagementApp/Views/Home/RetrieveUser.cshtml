@@ -1,0 +1,77 @@
+﻿@model UserManagementApp.Models.UserModel
+
+@{
+    ViewBag.Title = "User Details";
+}
+
+    <div id="Header">
+        <h3 id="HeadText">@Model.Name</h3>
+    </div>
+        <a href="@Url.Action("LogOut", "Login")" id="Logout">Logout</a>
+        <div class="Align-Table">
+    <table class="UserData">
+        <tr>
+            <th>Email</th>
+            <td>:</td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <th>Date Of Birth</th>
+            <td>:</td>
+            <td>@Model.DateOfBirth</td>
+        </tr>
+        <tr>
+            <th>Designation</th>
+            <td>:</td>
+            <td>@Model.Designation.ToString()</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>:</td>
+            <td>@{ int Age = DateTime.Now.Year - Convert.ToDateTime(Model.DateOfBirth).Year;
+                   @Age       
+                }
+            </td>
+        </tr>
+        <tr>
+            <th>Salary</th>
+            <td>:</td>
+            <td>@Model.Salary</td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td>:</td>
+            <td>@{
+                int i = 0;
+                string mark = "-";
+                foreach (var number in Model.PhoneNumber)
+                {
+                    if (i == 2 || i == 5 || i == 8)
+                    { @mark }
+                    @number
+                    i++;
+                }
+            }</td>
+        </tr>
+        <tr>
+            <th>Created On</th>
+            <td>:</td>
+            <td>@Model.CreatedOn</td>
+        </tr>
+        <tr>
+            <th>Modified On</th>
+            <td>:</td>
+            <td>@Model.ModifiedOn</td>
+        </tr>
+        <tr>
+            <th>Bio</th>
+            <td>:</td>
+            <td>@Model.Bio</td>
+        </tr>
+    </table>
+</div>
+    <div id="Options">
+    @Html.ActionLink("Edit", "Update", new { @id = Model.Id }, new { @id = "EditButton" , @class=ViewBag.Class})
+    <a href="@Url.Action("Index", "Home")" id="BackButton">Back</a>
+    </div>
+     

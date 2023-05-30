@@ -1,0 +1,495 @@
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:16:50,875          (null)         / In try of UpdateUser       
+INFO           /UserManagementApi.BLModule.ValidationModule.ValidationHelper          / 2022-07-24 23:16:50,896          (null)         / In try of ValidateUserData       
+INFO           /UserManagementApi.BLModule.ValidationModule.DateValidator          / 2022-07-24 23:16:50,896          (null)         / In try of CheckDateOfBirth       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2022-07-24 23:16:50,896          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2022-07-24 23:16:50,935          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.BLModule.ValidationModule.PhoneNumberValidator          / 2022-07-24 23:16:50,935          (null)         / In try of CheckPhoneNumber       
+INFO           /UserManagementApi.BLModule.ValidationModule.SalaryValidator          / 2022-07-24 23:16:50,935          (null)         / In try of CheckSalary       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:16:50,935          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:16:50,935          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:16:50,935          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:16:50,935          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:50,935          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:50,935          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:50,943          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:50,943          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:50,943          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:50,943          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:50,943          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:50,943          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:50,943          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:16:51,211          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:16:51,211          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:16:51,218          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:16:51,219          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:16:51,221          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:51,222          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:51,223          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:51,224          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:51,225          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:51,226          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:51,227          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:16:51,228          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:16:51,228          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:51,228          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:51,229          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:16:51,230          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:18:19,840          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:18:19,849          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:18:19,851          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:18:19,852          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:18:19,855          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:18:19,855          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:18:19,855          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:18:19,855          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:18:19,862          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:18:19,862          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:18:19,862          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:18:19,867          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:18:19,868          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:18:19,868          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:18:19,871          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:18:19,874          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:23:05,681          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:23:05,693          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:23:05,696          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:23:05,696          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:23:05,697          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:05,698          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:05,701          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:05,704          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:05,705          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:05,705          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:05,708          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:23:05,709          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:23:05,710          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:05,710          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:05,711          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:05,713          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:23:48,052          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:23:48,054          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:23:48,055          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:23:48,056          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:23:48,058          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:48,059          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:48,060          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:48,062          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:48,063          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:48,064          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:48,066          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:23:48,067          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:23:48,067          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:48,068          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:48,069          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:23:48,074          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:25:10,621          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:25:10,621          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:25:10,621          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:25:10,621          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:25:10,621          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:25:10,630          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:25:10,630          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:25:10,633          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:25:10,633          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:25:10,633          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:25:10,633          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:25:10,633          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:25:10,633          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:25:10,633          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:25:10,642          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:25:10,642          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:26:14,446          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:26:14,447          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:26:14,449          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:26:14,450          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:26:14,453          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:26:14,454          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:26:14,456          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:26:14,457          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:26:14,458          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:26:14,460          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:26:14,461          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:26:14,462          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:26:14,462          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:26:14,463          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:26:14,464          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:26:14,468          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:27:11,879          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:27:11,880          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:27:11,886          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:27:11,886          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:27:11,887          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:27:11,888          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:27:11,889          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:27:11,891          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:27:11,893          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:27:11,895          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:27:11,897          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:27:11,898          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:27:11,900          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:27:11,901          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:27:11,902          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:27:11,905          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:30:50,377          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:30:50,385          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:30:50,385          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:50,385          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:50,393          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:50,393          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:50,393          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:50,393          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:50,401          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:30:52,504          (null)         / In try of Update endpoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:30:52,506          (null)         / In try of UpdateUser       
+INFO           /UserManagementApi.BLModule.ValidationModule.ValidationHelper          / 2022-07-24 23:30:52,507          (null)         / In try of ValidateUserData       
+INFO           /UserManagementApi.BLModule.ValidationModule.DateValidator          / 2022-07-24 23:30:52,507          (null)         / In try of CheckDateOfBirth       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2022-07-24 23:30:52,508          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2022-07-24 23:30:52,508          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.BLModule.ValidationModule.PhoneNumberValidator          / 2022-07-24 23:30:52,508          (null)         / In try of CheckPhoneNumber       
+INFO           /UserManagementApi.BLModule.ValidationModule.SalaryValidator          / 2022-07-24 23:30:52,508          (null)         / In try of CheckSalary       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:30:52,508          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:30:52,513          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:30:52,513          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:30:52,513          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,513          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,513          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,520          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,522          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,525          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,525          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,525          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,530          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,568          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:30:52,781          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:30:52,783          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:30:52,784          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:30:52,785          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:30:52,786          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,787          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,788          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,790          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,791          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,792          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,795          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:30:52,797          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:30:52,799          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,799          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,800          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:30:52,805          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:31:39,795          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:31:39,799          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:31:39,801          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:39,801          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:39,801          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:39,809          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:39,809          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:39,809          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:39,809          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:31:46,883          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:31:46,886          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:31:46,886          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:46,886          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:46,886          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:46,886          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:46,894          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:46,894          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:46,894          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:31:49,857          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:31:49,857          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:31:49,857          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:49,857          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:49,865          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:49,865          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:49,865          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:49,865          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:49,873          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:31:58,259          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:31:58,267          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:31:58,267          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:31:58,267          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:31:58,267          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:58,267          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:58,273          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:58,276          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:58,276          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:58,276          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:58,281          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:31:58,282          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:31:58,282          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:58,282          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:58,282          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:31:58,282          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:32:06,696          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:06,696          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:32:06,696          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:06,696          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:06,696          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:06,696          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:06,696          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:06,711          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:06,712          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:06,712          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:06,712          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:32:06,712          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:32:06,712          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:06,712          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:06,712          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:06,712          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:32:08,634          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:08,634          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:32:08,634          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:08,634          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:08,634          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:08,634          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:08,634          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:08,634          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:08,634          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:08,634          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:08,649          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:32:08,649          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:32:08,649          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:08,649          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:08,649          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:08,649          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:32:09,137          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:09,139          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:32:09,140          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:09,141          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:09,142          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:09,143          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:09,144          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:09,147          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:09,147          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:09,149          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:09,151          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:32:09,152          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:32:09,152          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:09,153          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:09,154          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:09,154          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:32:15,647          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:15,648          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:15,650          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:15,651          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:15,651          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:15,651          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:15,651          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:15,651          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:15,660          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:32:18,665          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:18,668          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:32:18,669          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:18,669          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:32:18,669          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:18,672          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:18,673          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:18,673          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:18,673          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:18,673          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:18,680          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:32:18,680          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:32:18,680          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:18,681          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:18,681          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:32:18,681          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:35:03,996          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:35:03,999          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:35:04,001          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:35:04,001          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:35:04,001          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:04,001          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:04,001          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:04,009          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:04,011          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:04,012          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:04,013          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:35:04,015          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:35:04,015          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:04,016          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:04,017          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:04,017          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:35:38,039          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:35:38,040          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:35:38,040          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:35:38,042          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:35:38,043          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:38,043          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:38,044          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:38,045          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:38,046          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:38,047          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:38,050          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:35:38,050          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:35:38,051          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:38,051          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:38,051          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:38,053          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:35:55,057          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:35:55,058          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:35:55,063          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:35:55,063          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:35:55,063          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:55,063          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:55,063          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:55,063          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:55,071          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:55,071          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:55,071          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:35:55,071          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:35:55,071          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:55,071          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:55,079          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:35:55,079          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:36:03,049          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:03,057          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:03,057          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:03,057          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:03,061          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:03,063          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:03,063          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:03,063          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:03,063          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:36:06,468          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:06,468          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:36:06,468          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:06,468          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:06,468          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:06,476          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:06,476          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:06,476          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:06,476          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:06,476          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:06,484          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:36:06,484          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:36:06,484          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:06,484          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:06,484          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:06,492          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:36:16,094          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:16,094          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:36:16,096          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:16,097          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:16,098          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:16,099          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:16,101          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:16,103          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:16,104          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:16,104          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:16,107          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:36:16,107          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:36:16,108          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:16,109          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:16,110          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:16,112          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:36:27,965          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:27,965          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:36:27,966          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:27,966          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:27,967          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:27,967          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:27,968          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:27,969          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:27,969          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:27,970          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:27,971          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:36:27,972          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:36:27,972          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:27,973          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:27,974          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:27,975          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:36:37,930          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:37,933          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:36:37,933          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:37,934          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:36:37,934          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:37,935          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:37,936          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:37,937          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:37,937          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:37,938          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:37,939          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:36:37,940          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:36:37,940          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:37,940          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:37,941          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:36:37,943          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:39:39,209          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:39:39,211          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:39:39,213          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:39:39,214          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:39:39,214          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:39,214          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:39,215          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:39,216          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:39,216          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:39,217          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:39,218          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:39:39,218          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:39:39,218          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:39,219          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:39,220          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:39,221          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:39:54,579          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:39:54,581          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:39:54,584          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:39:54,584          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:39:54,586          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:54,587          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:54,589          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:54,590          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:54,591          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:54,591          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:54,592          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:39:54,593          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:39:54,593          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:54,595          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:54,597          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:39:54,598          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:40:02,867          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:40:02,879          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:40:02,880          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:40:02,880          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:40:02,881          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:02,883          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:02,884          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:02,885          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:02,886          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:02,888          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:02,890          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:40:02,892          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:40:02,893          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:02,895          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:02,895          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:02,900          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:40:58,694          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:40:58,698          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:40:58,700          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:40:58,701          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:40:58,703          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:58,704          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:58,706          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:58,708          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:58,709          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:58,710          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:58,712          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:40:58,712          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:40:58,713          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:58,714          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:58,715          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:40:58,718          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-07-24 23:43:04,779          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:43:04,786          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:43:04,788          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:43:04,788          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-07-24 23:43:04,788          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:43:04,788          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:43:04,788          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:43:04,788          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:43:04,796          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:43:04,796          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:43:04,796          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-07-24 23:43:04,796          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-07-24 23:43:04,803          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:43:04,803          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:43:04,804          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-07-24 23:43:04,804          tony@gmail.com         / In finally of GetUserList       

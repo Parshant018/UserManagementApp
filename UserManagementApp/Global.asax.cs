@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace UserManager
+namespace UserManagementApp
 {
     public class MvcApplication : System.Web.HttpApplication
     {

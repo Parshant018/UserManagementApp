@@ -1,17 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using UserServices.BLModule.AuthorizationManageModule;
-using UserServices.Models;
+using UserManagementApi.BLModule.AuthorizationModule;
+using UserManagementApi.BLModule.CrudModule;
 using log4net;
+using System.Reflection;
+using UserManagementApi.DataObject;
 
-namespace UserServices
+namespace UserManagementApi
 {
     public class UserService : IUserService
     {
-        private static readonly ILog Log = LogManager.GetLogger();
+        private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         AuthorizationService AuthorizationService = new AuthorizationService();
 
-        public string Login(LoginInfo loginDetails)
+        public string Login(LoginData loginDetails)
         {
             string Token = null;
             try
@@ -27,15 +29,15 @@ namespace UserServices
             return Token;
         }
 
-        public List<UserInfo> RetrieveAll(SortFilterModel searchOptions)
+        [Authorize]
+        public List<UserData> RetrieveAll(SortFilterData searchOptions)
         {
-            List<UserInfo> FilteredList = new List<UserInfo>();
+            List<UserData> UserList = new List<UserData>();
             try
             {
                 Log.Info("In try of RetrieveAll endPoint");
-                AuthorizationService.AuthorizeUser();
-                SortFilterManager SortFilterManager = new SortFilterManager();
-                FilteredList = SortFilterManager.FilterData(searchOptions);
+                CrudManager CrudManager = new CrudManager();
+                UserList = CrudManager.RetrieveAll(searchOptions);
             }
             catch (Exception e)
             {
@@ -43,77 +45,88 @@ namespace UserServices
                 GlobalException.ThrowError(e);
             }
 
-            return FilteredList;
+            return UserList;
         }
 
-        public string Create(UserInfo employee)
+        [Authorize]
+        public string Create(UserData employee)
         {
             try
             {
                 Log.Info("In try of Create endPoint");
-                AuthorizationService.AuthorizeUser();
                 CrudManager CrudManager = new CrudManager();
-                CrudManager.CreateUser(employee);
+                CrudManager.Create(employee);
             }
             catch (Exception e)
             {
                 Log.Info("In catch of Create endPoint");
                 GlobalException.ThrowError(e);
             }
-            return "User Created";
+            return "Success";
 
         }
 
-        public List<UserInfo> Retrieve(string id)
+        public List<UserData> Retrieve(string id)
         {
-            List<UserInfo> Employee = new List<UserInfo>();
+            List<UserData> User = new List<UserData>();
             try
             {
-                Log.Info("In try of Retrieve endPoint");
-                AuthorizationService.AuthorizeUser();
                 CrudManager CrudManager = new CrudManager();
-                Employee = CrudManager.RetrieveById(id);
+                User = CrudManager.Retrieve(id);
             }
-            catch (Exception e)
+            catch(Exception e)
             {
-                Log.Info("In catch of Retrieve endPoint");
                 GlobalException.ThrowError(e);
             }
-            return Employee;
+            return User;
         }
 
+        [Authorize]
         public string Delete(string id)
         {
             try
             {
                 Log.Info("In try of Delete endPoint");
-                AuthorizationService.AuthorizeUser();
                 CrudManager CrudManager = new CrudManager();
-                CrudManager.DeleteUser(id);
+                CrudManager.Delete(id);
             }
             catch (Exception e)
             {
                 Log.Info("In catch of Delete endPoint");
                 GlobalException.ThrowError(e);
             }
-            return "User Deleted";
+            return "Success";
         }
 
-        public string Update(UserInfo employee)
+        public string Update(UserData employee)
         {
             try
             {
                 Log.Info("In try of Update endpoint");
-                AuthorizationService.AuthorizeUser();
                 CrudManager CrudManager = new CrudManager();
-                CrudManager.UpdateUser(employee);
+                CrudManager.Update(employee);
             }
             catch (Exception e)
             {
                 Log.Info("In Catch of Update endPoint");
                 GlobalException.ThrowError(e);
             }
-            return "User Updated";
+            return "Success";
+        }
+
+        public string LogOut()
+        {
+            try
+            {
+                Log.Info("In try of LogOut endpoint");
+                AuthorizationService.LogOut();
+            }
+            catch (Exception e)
+            {
+                Log.Info("In Catch of LogOut endPoint");
+                GlobalException.ThrowError(e);
+            }
+            return "User Logged Out";
         }
     }
 }

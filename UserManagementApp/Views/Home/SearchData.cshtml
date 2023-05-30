@@ -1,0 +1,45 @@
+﻿@model List<UserManagementApp.Models.UserModel>
+@{
+    Layout = null;
+}
+
+<table class="grid">
+    <tr id="grid-top">
+        <th>Name</th>
+        <th class="Disappear">Email</th>
+        <th>Designation</th>
+        <th class="Disappear">Phone Number</th>
+        <th></th>
+    </tr>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.Name</td>
+            <td class="Disappear">@user.Email</td>
+            <td>@user.Designation.ToString()</td>
+            <td class="Disappear">
+            @{
+                int i = 0;
+                string mark = "-";
+                foreach (var number in @user.PhoneNumber)
+                {
+                    if (i == 2 || i == 5 || i == 8)
+                    { @mark }
+                    @number
+                    i++;
+                }
+             }
+            </td>
+            <td>
+                <div class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"></a>
+                <div class="dropdown-menu">
+                @Html.ActionLink("View", "RetrieveUser", new { @id = user.Id},new { @class="dropdown-item"})
+                @Html.ActionLink("Edit", "Update",new { @id = user.Id},new { @class="dropdown-item" })
+                <a onclick="ShowDeletePopup('@user.Id')" class="dropdown-item point">Delete</a>
+                </div>
+                </div>
+            </td>
+        </tr>
+    }
+</table>

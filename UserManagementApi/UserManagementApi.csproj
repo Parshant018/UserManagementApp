@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UserServices</RootNamespace>
-    <AssemblyName>UserServices</AssemblyName>
+    <RootNamespace>UserManagementApi</RootNamespace>
+    <AssemblyName>UserManagementApi</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,6 +80,10 @@
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Selectors" />
+    <Reference Include="System.identitymodel.services" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -103,25 +107,30 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLModule\AuthorizationManageModule\AuthorizationService.cs" />
-    <Compile Include="BLModule\AuthorizationManageModule\TokenManager.cs" />
+    <Compile Include="BLModule\AuthorizationModule\AuthorizationService.cs" />
+    <Compile Include="BLModule\AuthorizationModule\AuthorizeAttribute.cs" />
+    <Compile Include="BLModule\AuthorizationModule\TokenManager.cs" />
     <Compile Include="BLModule\CrudModule\CrudManager.cs" />
-    <Compile Include="LogManagement\LogManager.cs" />
-    <Compile Include="DLModule\SpNames.cs" />
-    <Compile Include="DLModule\ParameterManager.cs" />
+    <Compile Include="BLModule\CrudModule\ParameterListManager.cs" />
+    <Compile Include="BLModule\ValidationModule\DateValidator.cs" />
+    <Compile Include="BLModule\ValidationModule\EmailValidator.cs" />
+    <Compile Include="BLModule\ValidationModule\NameValidator.cs" />
+    <Compile Include="BLModule\ValidationModule\PasswordValidator.cs" />
+    <Compile Include="BLModule\ValidationModule\PhoneNumberValidator.cs" />
+    <Compile Include="BLModule\ValidationModule\SalaryValidator.cs" />
+    <Compile Include="BLModule\ValidationModule\ValidationHelper.cs" />
+    <Compile Include="DLModule\SpName.cs" />
     <Compile Include="DLModule\ConnectionManager.cs" />
-    <Compile Include="BLModule\ValidationModule\InfoValidator.cs" />
-    <Compile Include="ExceptionModule\UserExceptions\InvalidInformationException.cs" />
-    <Compile Include="ExceptionModule\UserExceptions\UnAuthorizedAccessException.cs" />
+    <Compile Include="ExceptionModule\UserExceptions\UserInvalidDataException.cs" />
+    <Compile Include="ExceptionModule\UserExceptions\UserUnAuthorizedException.cs" />
     <Compile Include="ExceptionModule\GlobalException.cs" />
-    <Compile Include="Models\UserInfo.cs" />
+    <Compile Include="DataObject\UserData.cs" />
     <Compile Include="IUserService.cs" />
-    <Compile Include="Models\LoginInfo.cs" />
-    <Compile Include="Models\SearchFilterModel.cs" />
-    <Compile Include="BLModule\CrudModule\SortFilterManager.cs" />
-    <Compile Include="Models\TokenInfo.cs" />
+    <Compile Include="DataObject\LoginData.cs" />
+    <Compile Include="DataObject\SearchFilterData.cs" />
+    <Compile Include="DataObject\TokenData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Models\SortFilterModel.cs" />
+    <Compile Include="DataObject\SortFilterData.cs" />
     <Compile Include="UserService.svc.cs">
       <DependentUpon>UserService.svc</DependentUpon>
     </Compile>
@@ -133,6 +142,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="UserManagementApiLog.config" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

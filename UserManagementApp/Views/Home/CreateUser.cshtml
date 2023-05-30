@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Create";
+}
+    <div id="Header"><h3 id="HeadText">Create New User</h3></div>
+       <table class="Image-Align">
+        <tr>
+        <td class="ImageHolder"></td>
+       <td><form method = "post" class="UserDetailForm">
+        <p>Add Details</p>
+        <table>
+        <tr>
+        <td><label>Name:</label></td>
+        <td><input type="text" id="Name" placeholder="first and last name here" required/><span class="Error" id="NameError"></span></td>
+        </tr>
+        <tr>
+        <td><label>Email:</label></td>
+        <td><input type="email" id="Email" placeholder="abcd@gmail.com" required/><span class="Error" id="EmailError"></span></td>
+        </tr>
+        <tr>
+        <td><label>Password:</label></td>
+        <td><input type="password" id="Password" placeholder="xxxxxxxabc" required/><span class="Error" id="PasswordError"></span></td>
+        </tr>
+        <tr>
+        <td><label>Date Of Birth:</label></td>
+        <td><input type="date" id="DateOfBirth" required/><span class="Error" id="DateError"></span></td>
+        </tr>
+        <tr>
+        <td><label>Designation:</label></td>
+        <td><select id="Designation">
+            <option value="1">Admin</option>
+            <option value="2">User</option>
+        </select></td></tr>
+        <tr>
+        <td><label>Phone Number:</label></td>
+        <td><input type="number" id="PhoneNumber" placeholder="91xxxxxxxx89" required/><span class="Error" id="PhoneError"></span></td>
+        </tr>
+        <tr>
+        <td><label>Salary:</label></td>
+        <td><input type="number" id="Salary" placeholder="Enter Salary" required/><span class="Error" id="SalaryError"></span></td>
+        </tr>
+        <tr>
+        <td><label>Bio:</label></td>
+        <td><textarea id="Bio" placeholder="Enter Bio" rows="15" cols="40"></textarea></td>
+        </tr>
+        </table>
+        <span class="Error" id="CommonError"></span>
+        <div id="FormOptions">
+        <a id="SubmitButton">Create</a>
+        <a href="@Url.Action("Index", "Home")" id="FormBackButton">Back</a>
+        </div>
+    </form></td></tr>
+    </table>
+    <script src="~/Content/scripts/CreateUser.js" type="module"> </script>
+    <script src="~/Content/scripts/DataValidator.js"></script>

@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UserManager</RootNamespace>
-    <AssemblyName>UserManager</AssemblyName>
+    <RootNamespace>UserManagementApp</RootNamespace>
+    <AssemblyName>UserManagementApp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -151,20 +151,33 @@
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AdminHomeController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\RequestManageModule\ApiRequestManager.cs" />
+    <Compile Include="ExceptionModule\ApiExceptionManager.cs" />
+    <Compile Include="ExceptionModule\InvalidDataException.cs" />
+    <Compile Include="ExceptionModule\UserUnAuthorizedException.cs" />
+    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="RequestManageModule\ApiRequestManager.cs" />
     <Compile Include="ExceptionModule\GlobalExceptionHandler.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\EmployeeModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\SearchFilterModel.cs" />
     <Compile Include="Models\SortFilterModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\css\CreatePage.css" />
+    <Content Include="Content\css\Home.css" />
+    <Content Include="Content\css\RetrieveUser.css" />
+    <Content Include="Content\css\UserDetailForm.css" />
+    <Content Include="Content\css\LoginForm.css" />
+    <Content Include="Content\Images\UserInfo.png" />
+    <Content Include="Content\scripts\CreateUser.js" />
+    <Content Include="Content\scripts\DataValidator.js" />
+    <Content Include="Content\scripts\Login.js" />
+    <Content Include="Content\scripts\Search.js" />
+    <Content Include="Content\scripts\UpdateUser.js" />
     <Content Include="Global.asax" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -176,23 +189,44 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\AdminHome\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\AdminHome\Update.cshtml" />
+    <Content Include="Views\Home\Update.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\AdminHome\Create.cshtml" />
+    <Content Include="Views\Home\CreateUser.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\SearchData.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\RetrieveUser.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UserManagementAppLog.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
+    <None Include="Properties\PublishProfiles\TestApp.pubxml" />
+    <Content Include="Views\Home\OnError.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

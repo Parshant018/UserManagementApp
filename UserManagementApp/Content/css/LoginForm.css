@@ -1,0 +1,70 @@
+﻿#Login-Form{
+    margin: 0 auto 0 auto;
+    margin-top:10%;
+    text-align:center;
+    width:410px;
+    justify-content:center;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+    border-radius:15px;
+}
+
+#Login-Header{
+font-size:20px;
+font-family:sans-serif;
+padding-top:6%;
+background: linear-gradient(to left,rgba(0,0,0,0.8),rgba(0,0,0,0.5));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color:transparent;
+}
+
+#Login-Form label{
+    font-family:sans-serif;
+}
+
+#Login-Form table{
+    width:100%;
+    text-align:center;
+    padding-left:4%;
+}
+
+#Login-Form input{
+    width:60%;
+    font-size:15px;
+    font-family:sans-serif;
+    border: 1px solid rgba(0,0,0,0.8);
+    border:none;
+    border-bottom: 1px solid gainsboro;
+    padding-left:7%;
+}
+
+#Login-Form .Field{
+    padding:5%;
+}
+
+#Login-Form input:focus{
+outline:none;
+border-bottom: 1px solid rgba(0,50,255,0.7);
+}
+
+#Login-Form #LoginButton{
+border:none;
+margin-top:7%;
+margin-bottom:8%;
+width:25%;
+color:white;
+padding:0;
+height:30px;
+border-radius:5px;
+background-color:rgba(0,50,255,0.8);
+cursor:pointer;
+}
+
+.Error{
+    margin-left:22%;
+    color:red;
+    display:none;
+    font-size:14px;
+    text-align:left;
+    font-family:sans-serif;
+}

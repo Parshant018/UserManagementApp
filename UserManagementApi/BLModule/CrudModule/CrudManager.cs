@@ -1,43 +1,61 @@
 ﻿using System;
 using System.Collections.Generic;
-using UserServices.BLModule;
-using UserServices.ExceptionModule;
+using UserManagementApi.BLModule.ValidationModule;
 using log4net;
+using System.Reflection;
+using UserManagementApi.DataObject;
+using UserManagementApi.DLModule;
+using System.Collections;
+using UserManagementApi.BLModule.AuthorizationModule;
+using UserManagementApi.ExceptionModule;
 
-namespace UserServices
+namespace UserManagementApi.BLModule.CrudModule
 {
     public class CrudManager
     {
-        private static readonly ILog Log = LogManager.GetLogger();
-        InfoValidator InfoValidator = new InfoValidator();
-        public static List<UserInfo> GetUserData()
+        private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+        ValidationHelper ValidationHelper = new ValidationHelper();
+        ParameterListManager ParameterListManager = new ParameterListManager();
+
+        public List<UserData> RetrieveAll(SortFilterData searchOption)
         {
-            List<UserInfo> UserList = new List<UserInfo>();
+            List<UserData> UserList = new List<UserData>();
+            ParameterListManager ParameterListManager = new ParameterListManager();
             try
             {
-                Log.Info("In try of GetData");
-                ConnectionManager<UserInfo> ConnectionManager = new ConnectionManager<UserInfo>(spName:SpName.AllEmployeesCmd);
+                Log.Info("In try of FiterData");
+                if (searchOption == null)
+                    searchOption = new SortFilterData();
+
+                if (searchOption.FilterOptions == null)
+                    searchOption.FilterOptions = new SearchFilterData();
+
+                ConnectionManager ConnectionManager = new ConnectionManager(spName: SpName.RetrieveAll, parameterList: ParameterListManager.GetSearchParameterList(searchOption));
                 UserList = ConnectionManager.GetUserList();
+
             }
-            catch(Exception)
+            catch (Exception)
             {
-                Log.Info("In catch of GetData");
+                Log.Info("In catch of FilterData");
                 throw;
             }
             return UserList;
         }
 
-        public void CreateUser(UserInfo user)
+        public void Create(UserData user)
         {
             try
             {
                 Log.Info("In try of CreateUser");
-                InfoValidator.ValidateInfo(user);
-                List<UserInfo> UserList = RetrieveById(user.Id.ToString());
-                if (UserList.Count > 0)
-                    throw new InvalidInformationException("User With this Id Already Exists");
-                ConnectionManager<UserInfo> ConnectionManager = new ConnectionManager<UserInfo>(spName:SpName.CreateCmd,parameters:user);
+
+                Guid Id = Guid.NewGuid();
+                user.Id = Id.ToString();
+
+                ValidationHelper.ValidateUserData(user);
+
+                ConnectionManager ConnectionManager = new ConnectionManager(spName: SpName.CreateUser, parameterList: ParameterListManager.GetUserParameterList(user));
                 ConnectionManager.ExecuteNonReadQuery();
+
             }
             catch (Exception)
             {
@@ -46,12 +64,12 @@ namespace UserServices
             }
         }
 
-        public void DeleteUser(string id)
+        public void Delete(string id)
         {
             try
             {
                 Log.Info("In try of DeleteUser");
-                ConnectionManager<UserInfo> ConnectionManager = new ConnectionManager<UserInfo>(spName:SpName.DeleteCmd,id:id);
+                ConnectionManager ConnectionManager = new ConnectionManager(spName: SpName.DeleteUser, parameterList: new Hashtable() { { "@id",id } });
                 ConnectionManager.ExecuteNonReadQuery();
             }
             catch (Exception)
@@ -61,30 +79,48 @@ namespace UserServices
             }
         }
 
-        public List<UserInfo> RetrieveById(string id)
+        public List<UserData> Retrieve(string id)
         {
-            List<UserInfo> EmployeeList = new List<UserInfo>();
+            List<UserData> User = new List<UserData>();
+            TokenManager TokenManager = new TokenManager();
             try
             {
-                Log.Info("In try of RetrieveById");
-                ConnectionManager<UserInfo> ConnectionManager = new ConnectionManager<UserInfo>(spName:SpName.RetrieveCmd,id:id);
-                EmployeeList = ConnectionManager.GetUserList();
+                Log.Info("In try of RetrieveUserById");
+                LoginData LoginData = TokenManager.DecryptToken();
+                TokenManager.CheckTokenExpire();
+
+                if (LoginData.Designation == DesignationList.User)
+                    id = LoginData.Id;
+
+                ConnectionManager ConnectionManager = new ConnectionManager(spName: SpName.RetrieveUser, parameterList: new Hashtable() { { "@id", id }});
+                User = ConnectionManager.GetUserList();
             }
             catch (Exception)
             {
-                Log.Info("In catch of RetrieveById");
+                Log.Info("In catch of RetrieveUserById");
                 throw;
             }
-            return EmployeeList;
+            return User;
         }
 
-        public void UpdateUser(UserInfo user)
+        public void Update(UserData user)
         {
             try
             {
                 Log.Info("In try of UpdateUser");
-                InfoValidator.ValidateInfo(user);
-                ConnectionManager<UserInfo> ConnectionManager = new ConnectionManager<UserInfo>(spName:SpName.UpdateCmd,parameters:user);
+                ValidationHelper.ValidateUserData(user);
+
+                List<UserData> OldUserData = new List<UserData>();
+                LoginData LoginData = new LoginData();
+                TokenManager TokenManager = new TokenManager();
+
+                LoginData = TokenManager.DecryptToken();
+                OldUserData = Retrieve(user.Id.ToString());
+
+                if ((user.Id != LoginData.Id && (LoginData.Designation==DesignationList.User || !user.Password.Equals(OldUserData[0].Password))) || (LoginData.Designation == DesignationList.User && user.Designation == DesignationList.Admin))
+                    throw new UserUnAuthorizedException("User UnAuthorized");
+
+                ConnectionManager ConnectionManager = new ConnectionManager(spName: SpName.UpdateUser, parameterList: ParameterListManager.GetUserParameterList(user));
                 ConnectionManager.ExecuteNonReadQuery();
             }
             catch (Exception)

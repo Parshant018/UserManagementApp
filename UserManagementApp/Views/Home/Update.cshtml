@@ -1,0 +1,55 @@
+﻿@model UserManagementApp.Models.UserModel
+
+@{
+    ViewBag.Title = "Update";
+}
+
+    <div id="Header"><h3 id="HeadText">Update User Details</h3></div>
+<table class="Image-Align">
+    <tr>
+    <td class="ImageHolder"></td>
+    <td><form method="post" class="UserDetailForm">
+        <p>Edit Details</p>
+        <input type="password" value="@Model.Password" class="No-Display" id="Password" />
+        <table>
+         <tr>
+        <td><input type="text" value="@Model.Id" id="Id" class="No-Display" readonly/></td></tr>
+        <tr>
+        <td><label>Name:</label></td>
+        <td><input type="text" value="@Model.Name" id="Name" /><span id="NameError" class="Error"></span></td></tr>
+        <tr>
+        <td><label>Email:</label></td>
+        <td><input type="email" value="@Model.Email" id="Email" /><span id="EmailError" class="Error"></span></td></tr>
+        <tr>
+        <td><label>Date Of Birth:</label></td>
+        <td><input type="date" value="@Model.DateOfBirth" id="DateOfBirth" /><span id="DateError" class="Error"></span></td></tr>
+        <tr>
+        <td><label class="@ViewBag.User">Designation:</label></td>
+        <td><select id="Designation" class="@ViewBag.User">
+            <option value="1">Admin</option>
+            @{
+                if ((int)Model.Designation == 2)
+                {<option value="2" selected>User</option>}
+                else { <option value="2">User</option>}
+            }
+        </select></td></tr>
+        <tr>
+        <td><label>Phone Number:</label></td>
+        <td><input type="number" value="@Model.PhoneNumber" id="PhoneNumber" /><span id="PhoneError" class="Error"></span></td></tr>
+        <tr>
+        <td><label>Salary:</label></td>
+        <td><input type="number" value="@Model.Salary" id="Salary" /><span id="SalaryError" class="Error"></span></td></tr>
+        <tr>
+        <td><label for="Password">Bio:</label></td>
+        <td><textarea type="text" id="Bio" rows="15" cols="40">@Model.Bio</textarea></td></tr>
+        </table>
+        <span class="Error" id="CommonError"></span>
+        <div id="FormOptions">
+        <a id="SubmitButton">Update</a>
+        <a href="@Url.Action("Index", "Home")" id="FormBackButton">Back</a>
+        </div>
+        </form></td></tr>
+    </table>
+
+    <script src="~/Content/scripts/UpdateUser.js" type="module"> </script>
+    <script src="~/Content/scripts/DataValidator.js"></script>

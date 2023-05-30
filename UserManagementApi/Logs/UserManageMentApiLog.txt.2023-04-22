@@ -1,0 +1,9 @@
+INFO           /UserManagementApi.UserService          / 2023-04-22 16:25:22,956          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-22 16:25:22,980          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-22 16:25:22,981          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-22 16:25:22,982          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-22 16:25:23,258          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-22 16:25:26,113          (null)         / In catch of ConnectionManager Constructor       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-22 16:25:26,140          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-22 16:25:26,165          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-22 16:25:26,166          (null)         / In Global Exception       

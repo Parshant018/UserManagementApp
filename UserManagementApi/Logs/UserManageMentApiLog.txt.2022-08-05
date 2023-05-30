@@ -1,0 +1,51 @@
+INFO           /UserManagementApi.UserService          / 2022-08-05 08:47:22,741          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-08-05 08:47:22,776          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2022-08-05 08:47:22,776          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2022-08-05 08:47:22,776          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:22,840          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:23,576          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:23,640          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-08-05 08:47:23,640          (null)         / In try of GenerateToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-08-05 08:47:23,699          (null)         / In try of UpdateTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:23,701          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:23,704          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:23,715          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:23,717          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:23,719          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:23,723          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-08-05 08:47:30,042          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-08-05 08:47:30,043          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-08-05 08:47:30,050          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-08-05 08:47:30,051          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-08-05 08:47:30,055          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:30,057          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:30,059          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:30,061          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:30,063          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:30,064          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:30,065          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-08-05 08:47:30,065          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-08-05 08:47:30,065          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:30,075          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:30,077          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:47:30,082          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2022-08-05 08:49:49,407          tony@gmail.com         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-08-05 08:49:49,410          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-08-05 08:49:49,413          tony@gmail.com         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-08-05 08:49:49,413          tony@gmail.com         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2022-08-05 08:49:49,416          tony@gmail.com         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:49,417          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:49,418          tony@gmail.com         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:49,420          tony@gmail.com         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:49,420          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:49,420          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:49,420          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-08-05 08:49:49,420          tony@gmail.com         / In try of RetrieveAll endPoint       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2022-08-05 08:49:49,427          tony@gmail.com         / In try of FiterData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:49,428          tony@gmail.com         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:49,430          tony@gmail.com         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:49,433          tony@gmail.com         / In finally of GetUserList       
+INFO           /UserManagementApi.UserService          / 2022-08-05 08:49:51,716          (null)         / In try of LogOut endpoint       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:51,716          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:51,725          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2022-08-05 08:49:51,733          (null)         / In finally of ExecuteNonReadquery       

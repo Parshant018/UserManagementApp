@@ -1,0 +1,56 @@
+﻿#Logout{
+    position:absolute;
+    top:30px;
+    right:25px;
+    text-decoration:none;
+    color:white;
+    font-family:sans-serif;
+}
+
+#EditButton,#BackButton{
+    text-decoration:none;
+    background-color:rgba(0,50,255,0.7);
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    font-family:sans-serif;
+}
+
+#Options{
+    text-align:right;
+    padding-right:10%;
+}
+
+.Align-Table{
+    margin:130px auto 0 auto;
+}
+
+.UserData{
+    margin:130px auto 0 auto;
+    text-align:left;
+    font-size:15px;
+    font-family:sans-serif;
+    margin-bottom:20px;
+}
+
+.UserData td,th{
+    padding: 7px 20px;
+}
+
+.No-Display{
+    display:none !important;
+}
+
+@media only screen and (max-width:410px){
+    .UserData{
+        font-size:12px;
+        width:100px;
+    }
+    .UserData td,th{
+        padding:7px 10px;
+    }
+    #Logout{
+        top:10px;
+        right:10px;
+    }
+}

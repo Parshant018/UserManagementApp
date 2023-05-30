@@ -1,24 +1,24 @@
 ﻿using System.Collections.Generic;
 using System.ServiceModel;
 using System.ServiceModel.Web;
-using UserServices.Models;
+using UserManagementApi.DataObject;
 
-namespace UserServices
+namespace UserManagementApi
 {
     [ServiceContract]
     public interface IUserService
     {
         [WebInvoke(Method = "POST" , UriTemplate = "/RetrieveAll" , RequestFormat = WebMessageFormat.Json , ResponseFormat = WebMessageFormat.Json)]
         [OperationContract]
-        List<UserInfo> RetrieveAll(SortFilterModel searchOptions);
+        List<UserData> RetrieveAll(SortFilterData searchOptions);
 
         [WebInvoke(Method = "POST", UriTemplate = "/Login", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         [OperationContract]
-        string Login(LoginInfo loginDetails);
+        string Login(LoginData loginDetails);
 
         [WebInvoke(Method ="POST" , UriTemplate = "/Create" , RequestFormat = WebMessageFormat.Json , ResponseFormat = WebMessageFormat.Json)]
         [OperationContract]
-        string Create(UserInfo employee);
+        string Create(UserData employee);
 
         [WebInvoke(Method = "DELETE" , UriTemplate = "/Delete/{id}" , RequestFormat = WebMessageFormat.Json , ResponseFormat = WebMessageFormat.Json)]
         [OperationContract]
@@ -26,10 +26,13 @@ namespace UserServices
 
         [WebInvoke(Method = "GET" , UriTemplate = "/Retrieve/{id}" , RequestFormat = WebMessageFormat.Json , ResponseFormat = WebMessageFormat.Json)]
         [OperationContract]
-        List<UserInfo> Retrieve(string id);
+        List<UserData> Retrieve(string id);
 
         [WebInvoke(Method = "PUT" , UriTemplate = "/Update" , RequestFormat = WebMessageFormat.Json , ResponseFormat = WebMessageFormat.Json)]
         [OperationContract]
-        string Update(UserInfo employee);
+        string Update(UserData employee);
+
+        [WebInvoke(Method = "GET", UriTemplate = "/LogOut", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+        string LogOut();
     }
 }

@@ -1,0 +1,246 @@
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:17:30,623          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:17:30,641          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:17:30,641          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:17:30,642          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:17:31,010          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:17:32,971          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:17:33,403          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:17:33,427          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:17:33,430          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:17:33,453          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:17:33,454          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:17:48,937          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:17:48,963          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:17:48,963          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:17:48,964          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:17:48,964          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:17:48,965          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:17:49,050          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:17:49,071          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:17:49,072          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:17:49,096          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:17:49,096          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:18:43,813          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:18:43,815          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:18:43,815          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:18:43,816          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:18:43,816          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:18:43,817          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:18:43,839          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:18:43,860          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:18:43,861          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:18:43,883          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:18:43,883          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:23:09,147          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:23:11,693          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:23:13,916          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:23:13,916          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:23:17,505          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:23:46,176          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:23:46,280          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:23:46,301          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:24:03,325          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:24:03,353          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:24:03,353          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:24:18,265          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:24:25,178          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:24:25,179          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:24:25,179          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:24:25,180          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:24:28,249          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:24:57,592          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:24:57,829          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:24:57,830          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:24:57,853          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:24:57,854          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:25:05,580          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:25:07,142          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:25:07,143          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:25:07,143          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:25:07,144          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:25:10,047          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:28:43,164          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:28:43,282          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:28:43,327          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:28:43,394          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:28:43,394          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:28:53,879          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:28:53,880          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:28:53,881          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:28:53,881          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:28:53,882          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:28:53,882          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:30:43,282          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:30:43,389          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:30:43,390          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:30:43,431          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:30:43,432          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:30:49,878          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:30:49,878          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:30:49,878          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:30:49,879          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:30:49,879          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:30:49,880          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:31:03,796          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:31:03,822          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:31:03,822          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:31:03,844          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:31:03,845          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:31:10,402          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:31:10,403          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:31:10,403          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:31:10,403          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:31:10,404          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:31:10,404          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:12,840          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:12,887          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:36:12,887          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:36:12,930          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:36:12,931          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:36:20,224          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:36:20,225          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:36:20,225          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:36:20,225          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:20,226          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:20,226          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:32,218          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:36:32,251          (null)         / In try of GenerateToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:36:32,586          (null)         / In try of UpdateTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:32,588          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:32,592          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:32,729          (null)         / In catch of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:32,754          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:36:32,754          (null)         / In catch of UpdateTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:36:32,778          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:36:32,803          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:36:32,803          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:36:43,299          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:36:43,300          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:36:43,300          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:36:43,300          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:43,301          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:43,301          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:36:50,315          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:37:00,916          (null)         / In try of GenerateToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:37:02,491          (null)         / In try of UpdateTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:02,491          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:02,492          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:02,517          (null)         / In catch of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:02,543          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:37:02,543          (null)         / In catch of UpdateTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:37:20,763          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:37:21,022          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:37:21,024          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:37:30,550          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:37:30,551          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:37:30,552          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:37:30,553          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:30,553          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:30,554          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:31,809          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:37:31,810          (null)         / In try of GenerateToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:37:46,146          (null)         / In try of UpdateTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:46,771          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:47,585          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:47,608          (null)         / In catch of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:47,639          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:37:52,419          (null)         / In catch of UpdateTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:37:52,446          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:37:52,471          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:37:52,471          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:37:59,171          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:37:59,173          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:37:59,173          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:37:59,173          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:59,174          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:59,175          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:37:59,176          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:37:59,176          (null)         / In try of GenerateToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:38:02,520          (null)         / In try of UpdateTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:38:02,848          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:38:32,109          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:38:49,144          (null)         / In catch of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:38:49,169          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:38:49,169          (null)         / In catch of UpdateTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:38:49,194          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:38:49,219          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:38:49,219          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:38:56,149          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:38:56,150          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:38:56,150          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:38:56,150          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:38:56,150          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:38:56,151          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:38:56,152          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:38:56,152          (null)         / In try of GenerateToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:38:58,172          (null)         / In try of UpdateTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:38:58,173          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:39:55,674          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:46:33,469          (null)         / In catch of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:46:34,765          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:46:55,070          (null)         / In catch of UpdateTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:47:11,941          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:47:11,997          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:47:11,998          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:47:19,641          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:47:19,642          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:47:19,642          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:47:19,642          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:47:19,642          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:47:19,644          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:47:19,644          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:47:22,243          (null)         / In try of GenerateToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:47:51,384          (null)         / In try of UpdateTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:47:51,416          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:47:51,417          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:47:51,715          (null)         / In catch of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:47:51,740          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:47:51,741          (null)         / In catch of UpdateTokenData       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:47:56,092          (null)         / In catch of Authenticate User       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:47:56,116          (null)         / In catch of Login endPoint       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:47:56,117          (null)         / In Global Exception       
+INFO           /UserManagementApi.UserService          / 2023-04-30 13:50:23,430          (null)         / In try of Login endPoint       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:50:23,432          (null)         / In try of Authenticate User       
+INFO           /UserManagementApi.BLModule.ValidationModule.EmailValidator          / 2023-04-30 13:50:23,432          (null)         / In try of CheckEmail       
+INFO           /UserManagementApi.BLModule.ValidationModule.PasswordValidator          / 2023-04-30 13:50:23,432          (null)         / In try of CheckPassword       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:23,432          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:23,433          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:23,434          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:50:24,571          (null)         / In try of GenerateToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:50:24,572          (null)         / In try of UpdateTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:24,573          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:24,573          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:24,604          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:24,606          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:24,610          (null)         / In try of ExecuteNonReadquery       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:24,743          (null)         / In finally of ExecuteNonReadquery       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:50:43,862          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:50:43,864          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-04-30 13:50:44,131          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:50:44,131          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:50:44,132          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:44,133          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:44,133          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:44,134          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:44,135          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:44,135          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:44,329          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:44,355          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-04-30 13:50:44,356          (null)         / In catch of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:50:44,380          (null)         / In catch of AuthorizeUser       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:50:44,406          (null)         / In Global Exception       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:50:59,674          (null)         / In try of AuthorizeUser       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:50:59,675          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-04-30 13:50:59,676          (null)         / In try of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:50:59,676          (null)         / In try of DecryptToken       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.TokenManager          / 2023-04-30 13:50:59,676          (null)         / In try of CheckTokenExpire       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:59,677          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:59,678          (null)         / In try of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:59,679          (null)         / In finally of GetTokenData       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:59,679          (null)         / In try of ConnectionManager Constructor       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:59,680          (null)         / In try of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:59,712          (null)         / In catch of GetUserList       
+INFO           /UserManagementApi.DLModule.ConnectionManager          / 2023-04-30 13:50:59,751          (null)         / In finally of GetUserList       
+INFO           /UserManagementApi.BLModule.CrudModule.CrudManager          / 2023-04-30 13:50:59,752          (null)         / In catch of RetrieveUserById       
+INFO           /UserManagementApi.BLModule.AuthorizationModule.AuthorizationService          / 2023-04-30 13:50:59,784          (null)         / In catch of AuthorizeUser       
+INFO           /UserManagementApi.GlobalException          / 2023-04-30 13:50:59,809          (null)         / In Global Exception       

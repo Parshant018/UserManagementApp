@@ -1,0 +1,12 @@
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-22 16:22:19,500          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-22 16:24:23,800          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-22 16:25:05,787          (null)         / In try of Login       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-22 16:25:05,788          (null)         / In try of Constructor of ApiRequestManager       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-22 16:25:05,788          (null)         / In try of GetToken       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-22 16:25:19,443          (null)         / In catch of GetToken NullrefrenceException       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-22 16:25:19,751          (null)         / In try of SetResult       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-22 16:25:33,390          (null)         / In try of GetResponseMessage       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-22 16:25:33,391          (null)         / In try of ThrowError       
+INFO           /UserManagementApp.ExceptionModule.ApiExceptionManager          / 2023-04-22 16:25:33,423          (null)         / In try of throwError       
+INFO           /UserManagementApp.RequestManageModule.ApiRequestManager          / 2023-04-22 16:25:33,454          (null)         / In catch of GetResponseMessage       
+INFO           /UserManagementApp.Controllers.LoginController          / 2023-04-22 16:25:33,487          (null)         / In catch of Login       

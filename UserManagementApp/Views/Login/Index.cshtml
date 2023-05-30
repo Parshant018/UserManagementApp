@@ -1,27 +1,21 @@
 ﻿
-@{
-    Layout = null;
+@{ 
+    ViewBag.Title = "Login";
 }
+<form method="post" id="Login-Form">
+    <h3 id="Login-Header">UserManagementApp</h3>
+    <table class="Login">
+    <tr>
+    <td><label for="Email">Email:</label></td>
+    <td class="Field"><input type="email" id="Email" placeholder="abc@gmail.com"/><span class="Error" id="EmailError"></span></td>
+    </tr>
+    <tr>
+    <td><label for="Password">Password:</label></td>
+    <td class="Field"><input type="password" id="Password" placeholder="xxxxxxxAbc"/><span class="Error" id="PasswordError"></span></td>
+    </tr>
+    </table>
+    <span class="Error" id="CommonError"></span>
+    <input type="button" onclick="Login()" value="Login" id="LoginButton" />
+</form>
+<script src="~/Content/scripts/Login.js"></script>
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <form>
-        <table>
-            <tr>
-                <td><label for="Email">Email:</label></td>
-                <td><input type="email" id="Email"/></td>
-            </tr>
-            <tr>
-                <td><label for="Password">Password:</label></td>
-                <td><input type="password" id="Password"/></td>
-            </tr>
-        </table>
-    </form>
-</body>
-</html>
